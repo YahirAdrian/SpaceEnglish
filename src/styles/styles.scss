@@ -209,3 +209,42 @@ h1, h2, h3, h4, h4, h6{
         background-color: transparentize(map-get($palette-variants, "secondary-3"), 0.3);
     }
 }
+
+// Grammar tables
+.grammar-table{
+    margin: auto;
+    width: 50%;
+    thead{
+        border-bottom: 1px solid $dark;
+        th{
+            padding: 0.5rem;
+            p{
+                margin-bottom: 0;
+            }
+            background-color: transparentize(map-get($palette-variants, "secondary-2"), 0.4);
+            text-align: center;
+            color: $dark;
+            &:nth-child(n+2){
+                border-left: 1px solid $dark;
+            }
+        }
+    }
+
+    tbody{
+        tr{
+            td{
+                padding: 0.25rem 1rem;
+                border-bottom: 1px solid $dark;
+                &:nth-child(n+2){
+                    border-left: 1px solid $dark;
+                }
+            }
+        }
+    }
+
+    strong{
+        color: $primary;
+        font-weight: bolder;
+    }
+}
+

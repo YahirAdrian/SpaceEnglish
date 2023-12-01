@@ -12197,4 +12197,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6 {
 .skill:hover {
   transform: scale(1.05);
   background-color: rgba(62, 172, 146, 0.7);
+}
+
+.grammar-table {
+  margin: auto;
+  width: 50%;
+}
+.grammar-table thead {
+  border-bottom: 1px solid #0B0B0B;
+}
+.grammar-table thead th {
+  padding: 0.5rem;
+  background-color: rgba(79, 157, 138, 0.6);
+  text-align: center;
+  color: #0B0B0B;
+}
+.grammar-table thead th p {
+  margin-bottom: 0;
+}
+.grammar-table thead th:nth-child(n+2) {
+  border-left: 1px solid #0B0B0B;
+}
+.grammar-table tbody tr td {
+  padding: 0.25rem 1rem;
+  border-bottom: 1px solid #0B0B0B;
+}
+.grammar-table tbody tr td:nth-child(n+2) {
+  border-left: 1px solid #0B0B0B;
+}
+.grammar-table strong {
+  color: #252B48;
+  font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
