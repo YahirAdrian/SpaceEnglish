@@ -12117,7 +12117,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6 {
   left: 3rem;
   max-width: 650px;
   padding: 1rem 1rem 3rem 1rem;
-  background: rgba(221, 230, 237, 0.4);
+  background: rgba(248, 248, 248, 0.6);
 }
 
 @media (max-width: 992px) {
@@ -12170,7 +12170,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6 {
   background-color: rgba(11, 11, 11, 0.6);
 }
 
-@media (min-width: 772px) {
+@media (min-width: 768px) {
   .topic-half img {
     height: -moz-max-content;
     height: max-content;
@@ -12178,7 +12178,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6 {
     width: 200px;
   }
 }
-@media (max-width: 772px) {
+@media (max-width: 768px) {
   .topics-box {
     padding: 1rem;
   }
