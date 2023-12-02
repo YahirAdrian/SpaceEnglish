@@ -1,0 +1,38 @@
+.reading-box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.reading-content{
+    padding: 2rem;
+}
+
+.reading-box img{
+    min-width: 30vw;
+}
+
+.activity{
+    margin-top: 3rem;
+    padding: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+.activity:last-of-type{
+    border-bottom: none;
+}
+
+@media(max-width: 768px){
+    /* Until 768 pixels */
+    .reading-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reading-box img{
+        width: 100%;
+        border-radius: 1rem 1rem 0 0 ;
+    }
+
+}
