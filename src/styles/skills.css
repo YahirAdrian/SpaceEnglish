@@ -1,11 +1,12 @@
 /* IFRAMES */
-iframe{
+iframe:not(.youtube-frame){
     width: 60%;
     max-width: 800px;
     min-width: 300px;
     height: 80vh;
     max-height: 600px;
 }
+
 
 .activity-preview{
     display: block;
