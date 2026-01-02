@@ -7,7 +7,7 @@ Space English is an educational website oriented to help students to practice th
 ## Screenshots
 <div style="text-align: center">
 
-![Space English Demo](./src/screenshots/index-video.gif)
+<img src="./src/screenshots/index-video.gif" style="aspect-ration: 3/4; max-width: 250px;">
 
 </div>
 
